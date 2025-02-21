@@ -94,7 +94,7 @@ export class AuthService {
         );
       }
 
-      return { message: 'OTP sent successfully', email: user.id, status:200 };
+      return { message: 'OTP sent successfully', id: user.id, status:200 };
 
     }
 
