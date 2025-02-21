@@ -23,11 +23,7 @@ import { JwtModule } from '@nestjs/jwt';
       username: process.env.DB_USERNAME,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
-<<<<<<< HEAD
-      entities: [join(process.cwd(), 'dist/**/*.Entity.js')],
-=======
       entities: [join(process.cwd(), 'dist/**/*.entity.js')],
->>>>>>> 30019f07ab283974c638a09a58fcd98ee4eda1e7
       synchronize: false,
     }),
     JwtModule.register({
